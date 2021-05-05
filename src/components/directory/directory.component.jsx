@@ -42,9 +42,8 @@ const sections = [
         return (
                 <div className="directory-menu">
                         {menuItems.map(item=>(
-                                <MenuItem key={item.id} title={item.title} url={item.imageUrl}></MenuItem>
+                                <MenuItem key={item.id} title={item.title} url={item.imageUrl} size={item.size}></MenuItem>
                         ))}
-                      
                         </div>
         )
 }
